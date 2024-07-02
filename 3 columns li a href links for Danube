@@ -1,0 +1,60 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+  width: 100%;
+  padding: 0px;
+  height: auto; /* Auto height instead of fixed height */
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on small screens */
+@media screen and (min-width: 600px) {
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+}
+</style>
+
+<div class="row">
+  <div class="column" style="background-color: white;">
+    <ul>
+      <li><a href="https://www.agrofitnes.com" target="_blank">Агрофитнес</a></li>
+      <li><a href="https://www.ahinorawines.com" target="_blank">Винарска изба Ахинора</a></li>
+      <li><a href="https://bononiaestate.com" target="_blank">Бонония Естейт</a></li>
+      <li><a href="https://borovitzawinery.com" target="_blank">Винарна Боровица</a></li>
+      <li><a href="https://burgozone.bg" target="_blank">Шато Бургозоне</a></li>
+      <li><a href="https://thejollyvintners.com" target="_blank">Веселите Винари</a></li>
+      <li><a href="https://gamza.bg" target="_blank">Видинска Гъмза</a></li>
+    </ul>
+  </div>
+  <div class="column" style="background-color: white;">
+    <ul>
+      <li><a href="https://villagrivitsa.bg" target="_blank">Вила Гривица</a></li>
+      <li><a href="https://vrachanskatemenuga.bg" target="_blank">Врачанска теменуга</a></li>
+      <li><a href="https://gorun.bg" target="_blank">Винарска изба Горун</a></li>
+      <li><a href="https://dosalamos.eu" target="_blank">Дос Аламос</a></li>
+      <li><a href="https://www.facebook.com/p/%D0%92%D0%B8%D0%BD%D0%B0%D1%80%D0%BD%D0%B0-%D0%9B%D0%B8%D0%BB%D1%8F%D1%87%D0%B5-100091308063832/" target="_blank">Винарна Лиляче</a></li>
+      <li><a href="https://magurawinery.bg" target="_blank">Винарска изба Магура</a></li>
+      <li><a href="https://vinarnanovoselo.bg" target="_blank">Винарна Ново село</a></li>
+    </ul>
+  </div>
+  <div class="column" style="background-color: white;">
+    <ul>
+      <li><a href="https://ponte-dio.bg" target="_blank">Понте Дио</a></li>
+      <li><a href="https://svichtov-winery.com" target="_blank">Винарна Свищов</a></li>
+      <li><a href="https://tipchenitza.bg" target="_blank">Винарна Типченица</a></li>
+      <li><a href="https://haralambievi.com" target="_blank">Винарна Хараламбиев</a></li>
+      <li><a href="https://ilv.my.contact.bg/index.htm" target="_blank">Институт по лозарство и винарство, гр. Плевен</a></li>
+    </ul>
+  </div>
+</div>
